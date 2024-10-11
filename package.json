@@ -1,0 +1,24 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests -s takeOnFails=true",
+    "test:chrome:headless": "testcafe chrome:headless ./tests -s takeOnFails=true",
+    "test:safari": "testcafe safari ./tests -s takeOnFails=true",
+    "test:firefox": "testcafe firefox ./tests -s takeOnFails=true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^3.6.2"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "node-xlsx": "^0.24.0",
+    "path": "^0.12.7",
+    "xlsx": "^0.18.5"
+  }
+}
